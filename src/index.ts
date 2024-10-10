@@ -1,3 +1,5 @@
+// import { getHolidaysYearOnline, updateStaticHolidayDays } from './holidays';
+
 export {
     getHolidaysYearOnline,
     getHolidaysYearAndMonthOnline,
@@ -8,7 +10,16 @@ export {
     getHolidaysYearOffline as getHolidays
 } from './holidays';
 
+// function updateYears() {
+//     const years = [1400, 1401, 1402, 1403, 1404, 1405, 1406];
+//     for (const year of years) {
+//         console.log(`updating year ${year} ...`)
+//         updateStaticHolidayDays(year.toString()).then(()=>console.log(`year ${year} updated`));
+        
+//     }
+// }
 
+// updateYears();
 
 // import {
 //     getHolidaysYearAndMonthOnline,
